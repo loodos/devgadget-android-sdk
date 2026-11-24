@@ -1,0 +1,142 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.loodos.devgadget",
+    "module": "network",
+    "version": "0.1.0-alpha07",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.12.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "core",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-0.1.0-alpha07.aar",
+          "url": "network-0.1.0-alpha07.aar",
+          "size": 96348,
+          "sha512": "c20743373ec310a992919a62521f3be012f238a53edbcdd713452932dec534390b4c02c09f4ca972babf64f2dc85d4327d297cee32c9a327d1746b4e2b60180c",
+          "sha256": "b56f40c96e774e19ee1d2754e295afe89af1ca162c78f38c73b2856ccf23eff6",
+          "sha1": "0ca1c8ad0fd984faa81868f0449afb07f614eea5",
+          "md5": "bf7c62714f9dcc521d76a9d9e05ecc8c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "ui",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.8.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.12.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "core",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-0.1.0-alpha07.aar",
+          "url": "network-0.1.0-alpha07.aar",
+          "size": 96348,
+          "sha512": "c20743373ec310a992919a62521f3be012f238a53edbcdd713452932dec534390b4c02c09f4ca972babf64f2dc85d4327d297cee32c9a327d1746b4e2b60180c",
+          "sha256": "b56f40c96e774e19ee1d2754e295afe89af1ca162c78f38c73b2856ccf23eff6",
+          "sha1": "0ca1c8ad0fd984faa81868f0449afb07f614eea5",
+          "md5": "bf7c62714f9dcc521d76a9d9e05ecc8c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.loodos.devgadget",
+    "module": "crashes",
+    "version": "0.1.0-alpha07",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.12.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "core",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crashes-0.1.0-alpha07.aar",
+          "url": "crashes-0.1.0-alpha07.aar",
+          "size": 45138,
+          "sha512": "3e8333ac4ad38eec89fd1ce062acf996cb6e48927bf5b2df435dba26839f0caa2ab93a1241cc43d7358736b38f7bf84f4de2025c41d53fb5e4bb38a47b980384",
+          "sha256": "b4faca061a612318b5d90f4c684a4e6f49e6a57e4444a84741c5e75c5c91aede",
+          "sha1": "6da42525562cee364bec3b975741474d67e85c33",
+          "md5": "051d74e7bf3d27e57fd5b523e03cc280"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "ui",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.8.7"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.12.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "core",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crashes-0.1.0-alpha07.aar",
+          "url": "crashes-0.1.0-alpha07.aar",
+          "size": 45138,
+          "sha512": "3e8333ac4ad38eec89fd1ce062acf996cb6e48927bf5b2df435dba26839f0caa2ab93a1241cc43d7358736b38f7bf84f4de2025c41d53fb5e4bb38a47b980384",
+          "sha256": "b4faca061a612318b5d90f4c684a4e6f49e6a57e4444a84741c5e75c5c91aede",
+          "sha1": "6da42525562cee364bec3b975741474d67e85c33",
+          "md5": "051d74e7bf3d27e57fd5b523e03cc280"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.loodos.devgadget",
+    "module": "datasource",
+    "version": "0.1.0-alpha07",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.12.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "core",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datasource-0.1.0-alpha07.aar",
+          "url": "datasource-0.1.0-alpha07.aar",
+          "size": 140236,
+          "sha512": "66f2d26b1fc09e4ba1301672ca01a03b08f9f4cc1870af943ca62e44eba415b2ba580f624fd4901a558b0936fd7402db73a8a1fc32f6171297f3148dccedaad9",
+          "sha256": "4ce8dff82cc03a6b40d50644b1a67dc4c397c52c11396335706f1008e8cd8b58",
+          "sha1": "71012fb0d30bf9e4b1bf272c39cd5279d287d596",
+          "md5": "54224f1d146f51e352c0a22028f82322"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "ui",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.8.7"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.12.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "core",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datasource-0.1.0-alpha07.aar",
+          "url": "datasource-0.1.0-alpha07.aar",
+          "size": 140236,
+          "sha512": "66f2d26b1fc09e4ba1301672ca01a03b08f9f4cc1870af943ca62e44eba415b2ba580f624fd4901a558b0936fd7402db73a8a1fc32f6171297f3148dccedaad9",
+          "sha256": "4ce8dff82cc03a6b40d50644b1a67dc4c397c52c11396335706f1008e8cd8b58",
+          "sha1": "71012fb0d30bf9e4b1bf272c39cd5279d287d596",
+          "md5": "54224f1d146f51e352c0a22028f82322"
+        }
+      ]
+    }
+  ]
+}

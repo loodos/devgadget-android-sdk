@@ -1,0 +1,204 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.loodos.devgadget",
+    "module": "bom",
+    "version": "0.1.0-alpha07",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.loodos.devgadget",
+          "module": "core",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "ui",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "runtime",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "network",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "network-okhttp",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "crashes",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "logger",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "analytics",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "datasource",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "deeplink",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "inspector",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "devgadget",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.loodos.devgadget",
+          "module": "core",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "ui",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "runtime",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "network",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "network-okhttp",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "crashes",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "logger",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "analytics",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "datasource",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "deeplink",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "inspector",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "devgadget",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        }
+      ]
+    }
+  ]
+}

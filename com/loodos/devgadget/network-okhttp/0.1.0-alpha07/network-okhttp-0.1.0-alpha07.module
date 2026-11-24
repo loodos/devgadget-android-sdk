@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.loodos.devgadget",
+    "module": "network-okhttp",
+    "version": "0.1.0-alpha07",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.loodos.devgadget",
+          "module": "network",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-okhttp-0.1.0-alpha07.aar",
+          "url": "network-okhttp-0.1.0-alpha07.aar",
+          "size": 5472,
+          "sha512": "c28ee4737f02ca87083604d6ee06f92c22d8f20a9dac6e12478254d16211534cc3d2e1669ac7f2ad0d0b5e539600f2918838bb28f1e7d6eb03d2bd6e6a36b2f2",
+          "sha256": "73f4b8c63b234f216ae244d8cca7c3a14d88872788401454ef8a21d6739385fd",
+          "sha1": "07db2f2310713b02dfce03ec3308e149c18b1b5a",
+          "md5": "ce0828b7831ea3dc713f58d59eb5bd71"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.loodos.devgadget",
+          "module": "network",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "network-okhttp-0.1.0-alpha07.aar",
+          "url": "network-okhttp-0.1.0-alpha07.aar",
+          "size": 5472,
+          "sha512": "c28ee4737f02ca87083604d6ee06f92c22d8f20a9dac6e12478254d16211534cc3d2e1669ac7f2ad0d0b5e539600f2918838bb28f1e7d6eb03d2bd6e6a36b2f2",
+          "sha256": "73f4b8c63b234f216ae244d8cca7c3a14d88872788401454ef8a21d6739385fd",
+          "sha1": "07db2f2310713b02dfce03ec3308e149c18b1b5a",
+          "md5": "ce0828b7831ea3dc713f58d59eb5bd71"
+        }
+      ]
+    }
+  ]
+}

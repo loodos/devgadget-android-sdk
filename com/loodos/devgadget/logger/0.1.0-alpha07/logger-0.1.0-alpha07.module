@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.loodos.devgadget",
+    "module": "logger",
+    "version": "0.1.0-alpha07",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.12.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "core",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "logger-0.1.0-alpha07.aar",
+          "url": "logger-0.1.0-alpha07.aar",
+          "size": 35178,
+          "sha512": "7ed1e4647e44153a17105975014087a01c4fc7e23fcde148403ced93fdc1e91f7e6dbec1e96ff8d547e39accba47c540cb16f9c1c7743a8a76ff61f58551f2f2",
+          "sha256": "e17d5c98a2197f8bcdd012bd8bf1ae40f26a56dada2d2a301f4c0fd2a983203e",
+          "sha1": "132b6d459f6b1ec61a96e7e2f55c626edd3b720c",
+          "md5": "ba05f0e7e9b21393ab142e40bb9bcbf3"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "ui",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.8.7"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.12.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "core",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "logger-0.1.0-alpha07.aar",
+          "url": "logger-0.1.0-alpha07.aar",
+          "size": 35178,
+          "sha512": "7ed1e4647e44153a17105975014087a01c4fc7e23fcde148403ced93fdc1e91f7e6dbec1e96ff8d547e39accba47c540cb16f9c1c7743a8a76ff61f58551f2f2",
+          "sha256": "e17d5c98a2197f8bcdd012bd8bf1ae40f26a56dada2d2a301f4c0fd2a983203e",
+          "sha1": "132b6d459f6b1ec61a96e7e2f55c626edd3b720c",
+          "md5": "ba05f0e7e9b21393ab142e40bb9bcbf3"
+        }
+      ]
+    }
+  ]
+}

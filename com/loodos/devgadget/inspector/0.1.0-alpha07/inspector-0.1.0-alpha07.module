@@ -1,0 +1,121 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.loodos.devgadget",
+    "module": "inspector",
+    "version": "0.1.0-alpha07",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.12.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "core",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inspector-0.1.0-alpha07.aar",
+          "url": "inspector-0.1.0-alpha07.aar",
+          "size": 73086,
+          "sha512": "b3d35f8d4f6be91bb8abc4a1910e3e75b2e0bff7f989a1841201241ec2da2170ccf9e02f452335ac5a02e4ea3e42c94d8f17e63e05853910a8cb31150bb41693",
+          "sha256": "625c487e4a2a1b95c78e4813cfe72bace4b0d999e237c5ebf5a30b57cb93e7e5",
+          "sha1": "bfe58d9ed983e4044bfd2aacde105734b43e6b50",
+          "md5": "32e7ea0276f4168871d615035c628277"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "ui",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.12.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "core",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inspector-0.1.0-alpha07.aar",
+          "url": "inspector-0.1.0-alpha07.aar",
+          "size": 73086,
+          "sha512": "b3d35f8d4f6be91bb8abc4a1910e3e75b2e0bff7f989a1841201241ec2da2170ccf9e02f452335ac5a02e4ea3e42c94d8f17e63e05853910a8cb31150bb41693",
+          "sha256": "625c487e4a2a1b95c78e4813cfe72bace4b0d999e237c5ebf5a30b57cb93e7e5",
+          "sha1": "bfe58d9ed983e4044bfd2aacde105734b43e6b50",
+          "md5": "32e7ea0276f4168871d615035c628277"
+        }
+      ]
+    }
+  ]
+}

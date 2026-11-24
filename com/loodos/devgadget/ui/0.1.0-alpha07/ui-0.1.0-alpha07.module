@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.loodos.devgadget",
+    "module": "ui",
+    "version": "0.1.0-alpha07",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.12.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-0.1.0-alpha07.aar",
+          "url": "ui-0.1.0-alpha07.aar",
+          "size": 334282,
+          "sha512": "49a7020f64c795ad840884db7102a2f8b524e53d072124d76c71564440658894965ddf3133b73d8dd05a413af8f71ed87f569d7dd517de89fb3d4b6769bfdb34",
+          "sha256": "09cd0b2bfad8c10f829cfc9b27986ae5c33e5af6fa79330edb4c41f7879a58ca",
+          "sha1": "3eeb42adbfba9e57286df95eb769175a2d6276a8",
+          "md5": "55abcb52f1e2ecf92f73135ad2aa3c56"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.12.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-0.1.0-alpha07.aar",
+          "url": "ui-0.1.0-alpha07.aar",
+          "size": 334282,
+          "sha512": "49a7020f64c795ad840884db7102a2f8b524e53d072124d76c71564440658894965ddf3133b73d8dd05a413af8f71ed87f569d7dd517de89fb3d4b6769bfdb34",
+          "sha256": "09cd0b2bfad8c10f829cfc9b27986ae5c33e5af6fa79330edb4c41f7879a58ca",
+          "sha1": "3eeb42adbfba9e57286df95eb769175a2d6276a8",
+          "md5": "55abcb52f1e2ecf92f73135ad2aa3c56"
+        }
+      ]
+    }
+  ]
+}

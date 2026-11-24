@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.loodos.devgadget",
+    "module": "deeplink",
+    "version": "0.1.0-alpha07",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.12.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "core",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "deeplink-0.1.0-alpha07.aar",
+          "url": "deeplink-0.1.0-alpha07.aar",
+          "size": 40715,
+          "sha512": "9519d93a1c6f7a95a0e82d676fcd0a1e8194602e181068173d4c745c5be4e0461c8391bde9d0ad7d5387ba7e7960b85fd60777c0031b8e32dc0a4793e1f6214a",
+          "sha256": "ffd9a018a22991e9273f2c6e802ed203ed81059b5ed4d2b53ff5bd438a208ca4",
+          "sha1": "abe815a2ba8ef3410ff0b505745dd90ca3001718",
+          "md5": "9875a6c9cd25b8f0e3b0acb92a828fde"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "ui",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.12.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.loodos.devgadget",
+          "module": "core",
+          "version": {
+            "requires": "0.1.0-alpha07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "deeplink-0.1.0-alpha07.aar",
+          "url": "deeplink-0.1.0-alpha07.aar",
+          "size": 40715,
+          "sha512": "9519d93a1c6f7a95a0e82d676fcd0a1e8194602e181068173d4c745c5be4e0461c8391bde9d0ad7d5387ba7e7960b85fd60777c0031b8e32dc0a4793e1f6214a",
+          "sha256": "ffd9a018a22991e9273f2c6e802ed203ed81059b5ed4d2b53ff5bd438a208ca4",
+          "sha1": "abe815a2ba8ef3410ff0b505745dd90ca3001718",
+          "md5": "9875a6c9cd25b8f0e3b0acb92a828fde"
+        }
+      ]
+    }
+  ]
+}
